@@ -14,7 +14,6 @@ int main(void)
             if(wcnt > wcnt_max)
                 wcnt_max = wcnt;
             ncnt = 0;
-            
         }
         
         if(sen >= '0' && sen <= '9'){
@@ -22,7 +21,6 @@ int main(void)
             if(ncnt > ncnt_max)
                 ncnt_max = ncnt;
             wcnt = 0;
-            
         }
     }
     printf("%d\n%d", wcnt_max, ncnt_max);    
