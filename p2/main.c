@@ -6,8 +6,8 @@ int main(void)
     char sen;
     scanf("%d", &limit);
     
-    for(i = 0; i <= limit; i ++){
-        scanf("%c", &sen);
+    for(i = 0; i < limit; i ++){
+        scanf(" %c", &sen);
         
         if(sen >= 'a' && sen <= 'z'){
             wcnt += 1;
