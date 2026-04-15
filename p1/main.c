@@ -9,8 +9,10 @@ int main(void)
         scanf("%d", &a);
         if(answer > a)
             printf("%d<?\n", a);
-        if(answer < a)
+        else if(answer < a)
             printf("%d>?\n", a);
+        else
+            printf("%d==?\n%d", a, index);
         index ++;
     } while(answer != a);
     printf("%d==?\n%d", a, index);
