@@ -13,6 +13,6 @@ int main(void)
             printf("%d>?", a);
         index ++;
     } while(answer != a);
-    printf("%d==?/n%d", a, index);
+    printf("%d==?\n%d", a, index);
     return 0;
 }
